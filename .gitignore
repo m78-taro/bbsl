@@ -1,0 +1,15 @@
+# 打包产物：放到 GitHub Releases，不进仓库
+dist/
+build/
+*.spec
+
+# 图标不随源码发布，只在打包时用
+private/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 从源码运行时生成在 src 下的个人数据
+bbsl_backups/
+bbsl_config.json
